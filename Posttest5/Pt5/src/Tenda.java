@@ -19,7 +19,7 @@ public class Tenda extends Camping {
         System.out.println("Tenda - Kode: " + kode + ", Nama: " + nama + ", Harga: " + harga + ", Kapasitas: " + kapasitas);
     }
 
-    public void display(int index) {
+    public final void display(int index) {
         System.out.println("Index: " + index + ", Kode: " + kode + ", Nama: " + nama + ", Harga: " + harga + ", Kapasitas: " + kapasitas);
     }
 }
